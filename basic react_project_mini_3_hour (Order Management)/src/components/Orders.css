@@ -1,0 +1,61 @@
+.orders {
+  max-width: 500px;
+  margin: auto;
+  padding: 20px;
+  background: #1e1e1e;
+  color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+  text-align: center;
+}
+
+/* Remove bullet points */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* Order item styling */
+.order-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #292929;
+  padding: 12px 15px;
+  margin: 10px 0;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Ensures all text inside order-item is centered */
+.order-id,
+.order-dish,
+.order-price {
+  font-weight: bold;
+  flex: 1;  /* Allows equal spacing */
+  text-align: center;
+}
+
+/* Delete button styling */
+.order-item button {
+  background: #ff4d4d;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.order-item button:hover {
+  background: #ff1a1a;
+}
+
+/* Total bill styling */
+.total-bill {
+  text-align: center;
+  background: #333;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 18px;
+}
